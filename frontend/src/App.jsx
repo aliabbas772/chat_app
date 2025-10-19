@@ -9,14 +9,14 @@ import { Toaster } from 'react-hot-toast';
 
 function App() {
 
-  const {checkAuth, isCheckingAuht, authUser} = useAuthStore();
+  const {checkAuth, isCheckingAuth, authUser} = useAuthStore();
 
   useEffect(() => {
     checkAuth();
   }, [checkAuth])
 
   // console.log( authUser );
-  if(isCheckingAuht) return <PageLoader />
+  if(isCheckingAuth) return <PageLoader />
 
   return (
     <div className="min-h-screen bg-slate-900 relative flex items-center justify-center p-4 overflow-hidden">
