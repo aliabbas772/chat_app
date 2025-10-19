@@ -1,5 +1,7 @@
 <h1 align="center">✨ Full-Stack Chat App with Auth & Emails ✨</h1>
 
+visit: https://chatapp-rgbnb.sevalla.app/
+
 Highlights:
 
 - 🔐 Custom JWT Authentication (no 3rd-party auth)
