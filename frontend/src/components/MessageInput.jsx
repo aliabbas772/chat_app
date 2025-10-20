@@ -67,7 +67,7 @@ function MessageInput() {
 
       <form
         onSubmit={handleSendMessage}
-        className="fixed bottom-0 w-full max-w-3xl mx-auto flex items-center gap-2 px-2 sm:gap-4 sm:px-0 overflow-hidden"
+        className="sticky bottom-0 w-full max-w-3xl mx-auto flex items-center gap-2 px-2 sm:gap-4 sm:px-0 overflow-hidden"
       >
         <input
           type="text"
