@@ -7,11 +7,10 @@ import {
   MailIcon,
   LoaderIcon,
 } from "lucide-react";
-import {Link} from 'react-router';
+import { Link } from "react-router";
 
 function LoginPage() {
-
-    const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState({
     email: "",
     password: "",
   });
@@ -20,7 +19,7 @@ function LoginPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    login(formData)
+    login(formData);
   };
 
   return (
@@ -95,7 +94,7 @@ function LoginPage() {
               </div>
             </div>
 
-             {/* FORM ILLUSTRATION - RIGHT SIDE */}
+            {/* FORM ILLUSTRATION - RIGHT SIDE */}
             <div className="hidden md:w-1/2 md:flex items-center justify-center p-6 bg-gradient-to-bl from-slate-800/20 to-transparent">
               <div>
                 <img
@@ -104,7 +103,9 @@ function LoginPage() {
                   className="w-full h-auto object-contain"
                 />
                 <div className="mt-6 text-center">
-                  <h3 className="text-xl font-medium text-cyan-400">Connect anyttime, anywhere</h3>
+                  <h3 className="text-xl font-medium text-cyan-400">
+                    Connect anyttime, anywhere
+                  </h3>
 
                   <div className="mt-4 flex justify-center gap-4">
                     <span className="auth-badge">Secure</span>
